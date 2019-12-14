@@ -1,0 +1,279 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Roboto,verdana;
+  text-align:justify;
+}
+
+body{
+  min-height: 100%;
+  background-color:#60abf8;
+  background: linear-gradient(to right, #8ed2ff 0%,#60abf8 64%,#418ef2 100%);
+}
+h1{text-align:center;font-size:3.7em;padding:10vh 0;text-shadow:#fff 0px 0px 5px;}
+h2{text-align:center;font-size:3em;}
+h3{font-size:2em;}
+h5{text-align:center;font-size:1.7em;}
+a{text-decoration:none;text-shadow:0px 0 1px #fff; color:#000;transition:all 300ms ease;}
+a:hover{text-shadow:0px 0 5px #dfd;} 
+a:focus{text-shadow:0px 1px 3px #dfd;}
+input, textarea{width:90%;}
+button[type=submit]{border:1px solid; padding:5px 20px;}
+
+#header{
+  display:block;
+	width: 100%;
+  height:100vh;
+  background:#004f69;
+  background-size:cover;
+	margin: 0;
+}
+#navbar{
+  background-color:#f32012;
+  background: linear-gradient(to right, #6d0019 0%,#a90329 55%,#a90329 55%,#8f0222 99%)
+}
+
+#navbar.fixed{
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #000;
+}
+#navbar ul,
+#footer ul {
+	list-style: none;
+	text-align: center;
+	padding: 15px;
+}
+#navbar ul li,
+#footer ul li{
+	display: inline-block;
+}
+#navbar li a.nav-active{
+	color: #feef12;
+}
+
+#navbar ul li a,
+#footer ul li a{
+	text-decoration: none;
+	padding: 8px;
+	text-transform: uppercase;
+	color: #cecece;
+	display: block;
+  border:3px solid transparent;
+}
+#navbar ul li a:hover{
+  border-bottom:3px solid #010203;
+}
+#navbar ul li a:active, 
+#navbar ul li a:focus{
+  color:#fff;
+  border-bottom:3px solid #010203;
+}
+
+
+.body-wrapper{
+  width: 100%;
+  margin: 0 auto;
+  background-size:cover;
+}
+
+.section{
+
+  min-height:100vh;
+  padding:55px 10%; 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+.extra-block{
+	margin: 0 auto;
+	color: #fff;
+	padding:25px 10px;
+  background: rgba(0,0,0,.6);
+}
+
+.flex{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+.flex>*{ flex: 1;-webkit-flex: 1; padding:0 15px 15px 0;}
+.flex>*:first-child
+{
+   flex: 0 1 100%;
+}
+
+#home-section{
+background:#fd4;
+  background: linear-gradient(to right, #fefcea 0%,#f1da36 100%);
+}
+
+#about-section{
+background:#edf;
+  background: linear-gradient(to right, #ff7cd8 0%,#fba6e1 50%,#fcecfc 100%);
+}
+
+
+#skills-section{
+color:#effef7;
+background:rgba(23,12,40,.3);
+text-shadow:1px 0 1px #000;
+}
+
+ul{
+list-style-type: none;
+padding-right: 5.3333333%;
+}
+
+h2 {
+	margin: 0 0 1.5em;
+	border-bottom: 1px solid #ccc;
+	padding: 0 0 .25em;
+	font-size:2em;
+	text-align:left;
+}
+
+progress[value] {
+		appearance: none;
+		border: none;
+		width: 100%; height: 20px;
+		background-color: whiteSmoke;
+		border-radius: 3px;
+		box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+		color: royalblue;
+		position: relative;
+		margin: 0 0 1.5em; 
+}
+
+progress[value]::-webkit-progress-bar {
+	background-color: whiteSmoke;
+	border-radius: 3px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+}
+
+progress[value]::-webkit-progress-value {
+	position: relative;
+	background-size: 35px 20px, 100% 100%, 100% 100%;
+	border-radius:3px;
+	animation: animate-stripes 5s linear infinite;
+}
+
+
+
+progress[value]::-webkit-progress-value:after {
+	content: '';
+	position: absolute;
+	width:5px; height:5px;
+	top:7px; right:7px;
+	background-color: white;
+	border-radius: 100%;
+}
+
+.progress-bar {
+	background-color: whiteSmoke;
+	border-radius: 3px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5) inset;
+	width: 100%; height:20px;
+}
+
+.progress-bar span {
+	background-color: royalblue;
+	border-radius: 3px;
+	display: block;
+	text-indent: -9999px;
+}
+
+p[data-value] { 
+  
+  position: relative; 
+}
+
+p[data-value]:after {
+	content: attr(data-value) '%';
+	position: absolute; right:0;
+}
+
+.html5::-webkit-progress-value,
+.java::-webkit-progress-value
+ 
+  {
+	background-image:
+	-webkit-linear-gradient( 135deg,
+	transparent,
+	transparent 33%,
+    rgba(0,0,0,.1) 33%,
+	rgba(0,0,0,.1) 66%,
+	transparent 66%),
+    -webkit-linear-gradient( top,
+	rgba(255, 255, 255, .25),
+	rgba(0,0,0,.2)),
+    -webkit-linear-gradient( left, #09c, #f44);
+}
+
+.css3-bootstrap::-webkit-progress-value,
+.php::-webkit-progress-value 
+{
+	
+	background-image:
+	-webkit-linear-gradient( 135deg,
+	transparent,
+	transparent 33%,
+	rgba(0,0,0,.1) 33%,
+	rgba(0,0,0,.1) 66%,
+	transparent 66%),
+    -webkit-linear-gradient( top,
+	rgba(255, 255, 255, .25),
+	rgba(0,0,0,.2)),
+    -webkit-linear-gradient( left, #09c, #ff0);
+}
+
+.javascript-jquery::-webkit-progress-value,
+.mysql::-webkit-progress-value 
+{
+	
+	background-image:
+	-webkit-linear-gradient( 135deg,
+	transparent,
+	transparent 33%,
+	rgba(0,0,0,.1) 33%,
+	rgba(0,0,0,.1) 66%,
+	transparent 66%),
+    -webkit-linear-gradient( top,
+	rgba(255, 255, 255, .25),
+	rgba(0,0,0,.2)),
+    -webkit-linear-gradient( left, #09c, #690);
+}
+
+
+#contact-section{
+background:#abc;
+  background: linear-gradient(to bottom, #deefff 0%, #98bede 100%);
+}
+
+#footer{
+background:#231207;
+  background: linear-gradient(45deg, #f0b7a1 0%,#8c3310 31%,#752201 68%,#bf6e4e 100%);
+color:#dddbbb;
+}
+
+.about a{color:#babbbc;}
+.back-to-top{
+  font-family:verdana;
+  text-decoration:none;
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  font-size:4em;
+  color:#000;
+  opacity:.8;
+}
