@@ -220,8 +220,7 @@ p[data-value]:after {
     -webkit-linear-gradient( left, #09c, #f44);
 }
 
-.css3-bootstrap::-webkit-progress-value,
-.php::-webkit-progress-value 
+.css3-bootstrap::-webkit-progress-value 
 {
 	
 	background-image:
@@ -238,7 +237,7 @@ p[data-value]:after {
 }
 
 .javascript-jquery::-webkit-progress-value,
-.mysql::-webkit-progress-value 
+.sql::-webkit-progress-value 
 {
 	
 	background-image:
