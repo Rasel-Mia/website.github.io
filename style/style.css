@@ -29,7 +29,7 @@ button[type=submit]{border:1px solid; padding:5px 20px;}
 	margin: 0;
 }
 #navbar{
-  background-color:#0000FF;
+  background-color:#FF0000;
  
 }
 
@@ -114,13 +114,13 @@ button[type=submit]{border:1px solid; padding:5px 20px;}
 }
 
 #home-section{
-background:#fd4;
-  background: linear-gradient(to right, #fefcea 0%,#f1da36 100%);
+background:#0000FF;
+  
 }
 
 #about-section{
-background:#edf;
-  background: linear-gradient(to right, #ff7cd8 0%,#fba6e1 50%,#fcecfc 100%);
+background:#000000;
+  
 }
 
 
@@ -255,14 +255,13 @@ p[data-value]:after {
 
 
 #contact-section{
-background:#abc;
-  background: linear-gradient(to bottom, #deefff 0%, #98bede 100%);
+background:#000000;
+ 
 }
 
 #footer{
-background:#231207;
-  background: linear-gradient(45deg, #f0b7a1 0%,#8c3310 31%,#752201 68%,#bf6e4e 100%);
-color:#dddbbb;
+background:#000000;	
+	color:#FFF;
 }
 
 .about a{color:#babbbc;}
