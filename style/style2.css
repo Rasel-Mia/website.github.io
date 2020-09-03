@@ -21,7 +21,7 @@ html, body {
 }
 
 #top  {
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/604/298/500/simple-background-texture-blue-wallpaper-preview.jpg");
+  background-color:#0000FF;
   background-repeat: repeat;
 }
 
@@ -99,7 +99,7 @@ b {
 
 
 #projects {
-  background-image:url("https://c4.wallpaperflare.com/wallpaper/604/298/500/simple-background-texture-blue-wallpaper-preview.jpg");
+  background-color:#0000FF;
    background-repeat: repeat; 
 }
 
