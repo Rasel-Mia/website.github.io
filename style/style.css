@@ -31,7 +31,7 @@ button[type=submit]{border:1px solid; padding:5px 20px;}
 }
 #navbar{
   background-color:#f32012;
-  background: linear-gradient(to right, #6d0019 0%,#a90329 55%,#a90329 55%,#8f0222 99%)
+  background: linear-gradient(to right, #6d0019 0%,#a90329 55%,#a90329 55%,#8f0222 99%);
 }
 
 #navbar.fixed{
