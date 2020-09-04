@@ -21,8 +21,9 @@ html, body {
 }
 
 #top  {
-  background-color:#0000FF;
+  background-color:#000000;
   background-repeat: repeat;
+  
 }
 
 p {
@@ -40,27 +41,27 @@ b {
 }
 
   p{color:white;}
-  b{color:firebrick;}
+b{color:white;}
 .social-buttons, 
 .techs-box,
 .projects-container,
 .contact-container{
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 
 
 
 .social-button:hover {
-  background-color: var(--secondary);
-  color: var(--dark-secondary);
+  background-color: #F5F5F5;
+  color: #000000;
 }
 
  .social-button:active {
-  background-color: var(--primary);
-  color: var(--dark-primary);
+  background-color: #0000FF;
+  color: #0000FF;
 }
 
 .social-buttons {
@@ -79,10 +80,10 @@ b {
   text-align: center;
   align-self: center;
   color: white;
-  background-color: var(--dark-primary);
+  background-color: #0000FF;
   text-decoration: none;
   margin: 10px;
-  border: 3px solid var(--dark-secondary);
+  border: 3px solid #FFF;
 }
 
 .section-title {
@@ -91,7 +92,8 @@ b {
   width: 100%;
   padding: 20px 0 20px 0;
   color: white;
-  background-color: var(--dark-primary);
+  background-color: #f32012;
+   background: linear-gradient(to right, #6d0019 0%,#a90329 55%,#a90329 55%,#8f0222 99%);
   font-size: 35px;
   font-weight: 400;
 }
@@ -99,7 +101,7 @@ b {
 
 
 #projects {
-  background-color:#0000FF;
+  background-color:#000000;
    background-repeat: repeat; 
 }
 
@@ -112,16 +114,19 @@ b {
 }
 
 .project {
-  background-color: var(--background);
-  padding: 15px;
-  margin: 30px;
+  background-color: #0000FF;
+  padding: 0px;
+  margin: 8px 4px;
   width: 300px;
-  height: 400px;
+  height: 430px;
+  
 }
 
 .project-thumbnail > img {
-  height: 160px;
+  height: 130px;
   width: 250px;
+  margin: 20px ;
+ 
 }
 
 .project-content {
@@ -145,7 +150,8 @@ b {
 
 
 input  {
-  background-color:firebrick;
+  background-color:#f32012;
+   background: linear-gradient(to right, #6d0019 0%,#a90329 55%,#a90329 55%,#8f0222 99%);
   border-radius: 4px;
   color: black;
   font-family: 'Dosis', sans-serif;
