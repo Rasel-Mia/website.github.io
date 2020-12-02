@@ -223,7 +223,7 @@ p[data-value]:after {
     -webkit-linear-gradient( left, #09c, #f44);
 }
 
-.css3-bootstrap::-webkit-progress-value
+.css3::-webkit-progress-value
 {
 	
 	background-image:
