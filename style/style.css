@@ -105,7 +105,7 @@ button[type=submit]{border:1px solid; padding:5px 20px;}
   display: flex;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
-  justify-content: space-between;
+  
   align-items: stretch;
   align-content: stretch;
 }
